@@ -3,23 +3,24 @@ title: "Lab 6: Quarto Presentation"
 author: "Nimra Khurram"
 format: revealjs
 editor: visual
+bibliography: references.bib
 ---
 
-## Quarto
+## Some Important Literature
 
-Quarto enables you to weave together content and executable code into a finished presentation. To learn more about Quarto presentations see <https://quarto.org/docs/presentations/>.
+The following references are good intro to miRNA structure and function. @nakanishi_anatomy_2016 talks about how different components, especially the AGO proteins activate miRNA for regulatory function @bofill-de_ros_recent_2024 reviews the miRNA research to date and explores the potential for miRNA as theraputic targets
 
-## Bullets
 
-When you click the **Render** button a document will be generated that includes:
+## Literature related to miRNA-mRNA network
 
--   Content authored with markdown
--   Output from executable code
+The following references look into networks between miRNA and mRNA investigate the function of a targeted mRNA for prognosis of different cancers.
 
-## Code
+-   @wang_elucidating_2024 used TCGA miRNA dataset to investigate the function of a targeted mRNA for hepatocellular carcinoma (HCC)
+-   Profiles of miRNAs and target mRNAs expression were used by @liu_comprehensive_2023 to study the role of the above in tumor immunity
 
-When you click the **Render** button a presentation will be generated that includes both content and the output of embedded code. You can embed code like this:
+## A Cool Equation or Two
 
-```{r}
-1 + 1
-```
+$$w_A(g) \equiv \prod_i^M \sum_j^M \Big( \frac{\exp(-q\epsilon d^H_{i,j})}{\sum_j \exp(-q\epsilon d^H_{i,j})} \Big) \phi^{d^A_{i,j}}$$
+
+## References
+
